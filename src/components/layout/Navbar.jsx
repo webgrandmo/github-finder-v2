@@ -22,7 +22,7 @@ function Navbar({ title }) {
 							Home
 						</Link>
 						<Link
-							to={'/'}
+							to={'/about'}
 							className='btn btn-ghost btn-sm rounded-btn'>
 							About
 						</Link>
