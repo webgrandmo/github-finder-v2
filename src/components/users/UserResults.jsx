@@ -7,6 +7,7 @@ function UserResults() {
 	const { users, isLoading, fetchUsers } = useContext(GithubContext);
 	useEffect(() => {
 		fetchUsers();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	if (!isLoading) {
