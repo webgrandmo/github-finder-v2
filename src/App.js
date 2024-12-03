@@ -26,8 +26,9 @@ function App() {
 									path='/about'
 									element={<About />}
 								/>
+
 								<Route
-									path='/user:login'
+									path='/user/:login'
 									element={<User />}
 								/>
 								<Route
